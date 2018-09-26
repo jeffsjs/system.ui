@@ -1,0 +1,13 @@
+.btn .spinner-circle {
+  display: inline-block;
+}
+.btn .spinner-circle .loader {
+  margin-right: 15px;
+  display: inline-block;
+  color: inherit;
+  font-size: 3px;
+  top: -3px;
+  text-indent: 100%;
+  width: .25rem;
+  height: .25rem;
+}

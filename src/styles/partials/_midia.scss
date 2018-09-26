@@ -1,0 +1,18 @@
+$medium-width: 768px;
+@mixin mobile {
+  .mobile {
+    @content;
+  }
+}
+
+@mixin view768 {
+  @media (max-width: #{$medium-width}) {
+    @content;
+  }
+}
+
+@mixin viewDesktop {
+  @media (min-width: #{$mobile-width + 1px}) {
+    @content;
+  }
+}

@@ -1,0 +1,18 @@
+.not-found {
+  background-color: #2f343b;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  color: #fff; }
+  .not-found > img {
+    margin-top: 2rem; }
+  .not-found h1, .not-found p {
+    font-weight: 300; }
+  .not-found p {
+    font-size: 1.250rem; }
+  .not-found .logo {
+    display: block;
+    margin: auto;
+    width: 40px;
+    margin-top: 1rem; }

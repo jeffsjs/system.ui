@@ -1,0 +1,13 @@
+$grid-gutter-width: 15px;
+$svg-path: '~/ingaia.ux.styleguide/src/svg/';
+
+@import "ingaia.ux.styleguide/src/scss/stylesheet";
+
+@import '~ingaia-font-icons/dist/ingaia-font-icons.css';
+
+@import './partials/midia';
+@import './partials/default';
+@import './partials/login';
+@import './partials/home';
+@import './partials/navbar';
+

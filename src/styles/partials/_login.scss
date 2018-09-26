@@ -1,0 +1,53 @@
+.login {
+  background-image: url(../imgs/bg-login.png);
+  height: 100vh;
+
+  .form-signin {
+      margin: 25vh 0;
+    .form-group {
+      margin: auto;
+      font-weight: 400;
+      max-width: 400px;
+      input {
+        height: 60px;
+        padding: 0;
+        margin: 10px 0;
+        font-size: 20px;
+        line-height: 70px;
+        border: solid 1px #fff;
+        border-radius: 4px;
+        color: #fff;
+        background: none;
+        text-align: center;
+      }
+      input:focus {
+        border: solid 1px #19cff9;
+      }
+      *::-webkit-input-placeholder {
+        color: #fff !important;
+      }
+
+      *:-moz-placeholder {
+        color: #fff !important;
+      }
+
+      *::-moz-placeholder {
+        color: #fff !important;
+      }
+
+      *:-ms-input-placeholder {
+        color: #fff !important;
+      }
+      .error {
+        color: #fff !important;
+      }
+      input.error, input.error:focus {
+        border-color: red;
+      }
+    }
+  }
+
+  .btn {
+    border-radius: 8px;
+  }
+}

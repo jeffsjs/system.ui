@@ -1,5 +1,6 @@
 # system.ui
-[Demo](https://jeffsjs.github.io/system.ui/)
+[Demo](https://jeffsjs.github.io/system.ui/) - Enter any email and password
+
 
 This repository is a set of React modules used for Migration
 
